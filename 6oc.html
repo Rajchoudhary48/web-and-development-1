@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Raj Motors - Premium Cars</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #222;
+        }
+
+        /* Navbar */
+        nav {
+            height: 70px;
+            background-color: #111;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 60px;
+        }
+
+        .logo {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #e63946;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 35px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #e63946;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 550px;
+            background: linear-gradient(
+                rgba(0,0,0,0.55),
+                rgba(0,0,0,0.55)
+            ),
+            url("https://images.unsplash.com/photo-1503376780353-7e6692767b70")
+            center/cover;
+
+            display: flex;
+            align-items: center;
+            padding-left: 80px;
+        }
+
+        .hero-content {
+            color: white;
+            max-width: 600px;
+        }
+
+        .hero-content h1 {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #e63946;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #c1121f;
+        }
+
+        /* Cars Section */
+        .cars {
+            padding: 60px 70px;
+            text-align: center;
+        }
+
+        .cars h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .cars > p {
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .car-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .car-card {
+            width: 320px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            transition: 0.3s;
+        }
+
+        .car-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .car-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .car-info {
+            padding: 20px;
+            text-align: left;
+        }
+
+        .car-info h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .car-info p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color: #e63946;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* About */
+        .about {
+            background-color: #111;
+            color: white;
+            padding: 70px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.7;
+            color: #ccc;
+        }
+
+        /* Contact */
+        .contact {
+            padding: 60px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 35px;
+            margin-bottom: 25px;
+        }
+
+        .contact p {
+            margin: 10px;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Mobile */
+        @media (max-width: 700px) {
+
+            nav {
+                padding: 0 20px;
+            }
+
+            nav ul {
+                gap: 12px;
+            }
+
+            nav ul li a {
+                font-size: 13px;
+            }
+
+            .hero {
+                padding: 30px;
+                height: 450px;
+            }
+
+            .hero-content h1 {
+                font-size: 40px;
+            }
+
+            .cars {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <div class="logo">
+            Raj<span>Motors</span>
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>Drive Your Dream Car</h1>
+
+            <p>
+                Discover premium cars with powerful performance,
+                modern design and advanced technology.
+            </p>
+
+            <a href="#cars" class="btn">
+                Explore Cars
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Cars Section -->
+
+    <section class="cars" id="cars">
+
+        <h2>Our Popular Cars</h2>
+
+        <p>Choose the perfect car for your journey.</p>
+
+        <div class="car-container">
+
+
+            <!-- Car 1 -->
+
+            <div class="car-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1555215695-3004980ad54e"
+                    alt="BMW Car"
+                >
+
+                <div class="car-info">
+
+                    <h3>BMW M4</h3>
+
+                    <p>
+                        Luxury sports car with incredible performance.
+                    </p>
+
+                    <p class="price">
+                        ₹1.48 Crore
+                    </p>
+
+                    <br>
+
+                    <a href="#" class="btn">
+                        View Details
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Car 2 -->
+
+            <div class="car-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1542362567-b07e54358753"
+                    alt="Mercedes Car"
+                >
+
+                <div class="car-info">
+
+                    <h3>Mercedes AMG</h3>
+
+                    <p>
+                        Elegant design combined with powerful performance.
+                    </p>
+
+                    <p class="price">
+                        ₹1.75 Crore
+                    </p>
+
+                    <br>
+
+                    <a href="#" class="btn">
+                        View Details
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Car 3 -->
+
+            <div class="car-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1504215680853-026ed2a45def"
+                    alt="Porsche Car"
+                >
+
+                <div class="car-info">
+
+                    <h3>Porsche 911</h3>
+
+                    <p>
+                        Experience speed, luxury and extraordinary handling.
+                    </p>
+
+                    <p class="price">
+                        ₹2.10 Crore
+                    </p>
+
+                    <br>
+
+                    <a href="#" class="btn">
+                        View Details
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+
+        <h2>About Raj Motors</h2>
+
+        <p>
+            Raj Motors is a premium automobile platform created for
+            car enthusiasts. We provide information about luxury,
+            sports and performance cars so you can find your dream car.
+        </p>
+
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>📍 Pune, Maharashtra, India</p>
+
+        <p>📞 +91 98765 43210</p>
+
+        <p>📧 rajmotors@gmail.com</p>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Raj Motors. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
