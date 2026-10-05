@@ -1,0 +1,54 @@
+ /* .one{
+    color: brown;
+}
+button{
+    background-color: greenyellow;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: line-through green;
+}
+body{background-color: rgb(216, 241, 241);
+font-family: cursive;}
+#one{
+    font-family: Arial, Helvetica, sans-serif pink;
+}
+body{
+    text-align: center;} */ */
+    h1{
+        text-transform: capitalize rgb(232, 183, 191);
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: line-through;
+
+    }
+    body{
+        font-family: the 'Times New Roman', Times, serif;
+        background-color: rgb(111, 175, 231);
+    }
+    div{
+        height: 50px;
+       background-color: black;
+       border-color: aliceblue solid 5px;
+    }
+     #one{
+        height: 40px;
+        width: 200px;
+    }
+    #two{
+        height: 40px;
+        width: 200px; 
+        color: antiquewhite;
+    }#three{
+        height: 40px;
+        width: 200px;
+    }#four{
+        height: 40px;
+        width: 200px;
+    }

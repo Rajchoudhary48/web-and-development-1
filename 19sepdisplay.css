@@ -1,0 +1,118 @@
+#main{
+     
+    background-color: rgb(236, 243, 243);
+    border: 2px solid;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    /* display: flex;
+    flex-direction: column; */
+   
+    
+  
+}
+#main:hover .onee{
+    margin-left: 1351px;
+    border-radius: 50%
+
+}
+#main:hover .child{
+    margin-left: 1351px;
+    border-radius: 50%
+
+}
+.onee{
+    transition: 3s;
+    
+}
+
+#one{
+   
+   background-color: rgb(230, 191, 18);
+   height: 100px;
+   width: 100px;
+   transition-timing-function: linear;
+   
+   
+   /* position: relative;
+   top: 0px;
+   right: 0px;
+   flex-shrink: 2; */
+}
+ #two{
+   background-color: rgb(233, 42, 160);
+   height: 100px;
+   width: 100px;
+   transition-timing-function:step-end;
+   
+ }
+#three{
+   background-color: rgb(120, 220, 49);
+   height: 100px;
+   width: 100px;
+   transition-timing-function: ease-out;
+
+  
+}
+#f{
+   background-color: rgb(242, 20, 20);
+   height: 100px;
+   width: 100px;
+   transition-timing-function: ease-in-out;
+}
+#s{
+   background-color: rgb(88, 13, 158);
+   height: 100px;
+   width: 100px; 
+   transition-timing-function:ease-in;
+ } 
+ .child {
+    font-size: 30px;
+   transition: 3s;
+   text-align: center;
+ 
+ }
+.child:hover{
+    transform: translate(300px,200px);
+    transform: scale(5);
+    transform: rotate(79327dg);
+}
+.child2{
+    background-color: antiquewhite;
+   height: 100px;
+   width: 100px;
+   transition: 3s;
+   margin-left: 400px;
+ }
+.child2:hover{
+    background-color: aqua;
+    transform: translate(300px,200px);
+    transform: scale(5);
+    transform: rotate(79327deg);
+}
+.child3 {
+    background-color: rgb(185, 23, 147);
+    height: 100px;
+   width: 100px;
+   transition: 3s;
+  margin-left: 600px;
+ 
+ }
+.child3:hover{
+    transform: translate(300px,200px);
+    transform: scale(5);
+    transform: rotate(79327deg);
+}
+.child4 {
+    background-color: rgb(232, 140, 21);
+    height: 100px;
+   width: 100px;
+   transition: 3s;
+   margin-left: 800px;
+ 
+ }
+.child4:hover{
+    transform: translate(300px,200px);
+    transform: scale(5);
+    transform: rotate(7937deg);
+}

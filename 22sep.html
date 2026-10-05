@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            perspective: 1200px;
+        }
+        #main {
+            height: 1000px;
+            width: 800px;
+            margin: 20px auto;
+            /* position: relative;
+            transition: 3s;
+            transform-style: preserve-3d; */
+            animation: anine 3s linear 1s 5 ;
+
+        }
+        
+        @keyframes anine {
+            0%{
+                background-color:pink;
+            }
+            10%{
+                background-color:rgb(58, 21, 182);
+            }
+            20%{
+                background-color:rgb(234, 17, 53);
+            }
+            30%{
+                background-color:rgb(28, 125, 167);
+            }
+            50%{
+                background-color:pink;
+            }
+            100%{
+                background-color:rgb(15, 15, 223);
+            }
+            
+        }
+
+        #main:hover {
+            /* transform: rotateY(180deg); */
+        }
+
+        #child-one {
+            background-color: blueviolet;
+            height: 50%;
+            width: 100%;
+            /* position: absolute; */
+
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        #child-two {
+            width: 100%;
+
+            background-color: rgb(10, 162, 17);
+            height: 50%;
+            /* position: absolute;
+            backface-visibility: hidden; */
+
+        }
+
+        #child-two:hover {
+            /* transform: rotateY(180deg);
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="child-one">  <img
+               
+</body>
+
+</html>

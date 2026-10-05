@@ -1,0 +1,99 @@
+ /* body{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+#head{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;   
+
+}
+h1,h5{
+    margin: 0 auto;
+} */
+#box1{
+    height: 350px;
+    width: 250px;
+    border: 10px solid rgb(84, 180, 228);
+    background-color: aqua;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+img{
+    
+    position: relative;
+    left: 25px;
+    top: 10px;
+    height:"150px";
+    width:"200px";
+}
+
+button{
+    background-color: black;
+    color: white;
+
+}
+
+#box2{
+    height: 350px;
+    width: 250px;
+    border: 10px solid rgb(200, 241, 248);
+     background-color: rgb(225, 242, 242);
+    border-radius: 10px;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+img{
+    
+    position: relative;
+    left: 25px;
+    top: 10px;
+    height:"150px";
+    width:"200px";
+}
+
+button{
+    background-color: rgb(220, 26, 26);
+    color: white;
+
+}
+#box3{
+    display: inline-block;
+    height: 350px;
+    width: 250px;
+    border: 10px solid rgb(97, 191, 235);
+     background-color: aqua;
+    border-radius: 10px;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+img{
+    
+    position: relative;
+    left: 25px;
+    top: 10px;
+    height:"150px";
+    width:"200px";
+}
+
+button{
+    background-color: black;
+    color: white;
+
+}
+body{
+    background-color:#00ff00;
+}
+*{
+    font-style: inherit;
+    
+}
+div{
+    background-color: aqua;
+}

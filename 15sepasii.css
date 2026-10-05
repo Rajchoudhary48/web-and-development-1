@@ -1,0 +1,39 @@
+#head{
+    background-color: black;
+    color: white; 
+   width: 100%;
+    padding: 20; 
+    height: 80px;
+    font-size: 30px;  
+    position: fixed; 
+   
+
+
+}
+span{
+    margin-left: 200px;
+    margin-top:  30px;
+}
+img{
+    border-radius: 50px; 
+    height: 500px;
+    width: 750px;  
+    position: relative; 
+    top: 140px;
+
+}
+#body{
+    background-color: rgb(244, 175, 85);
+}
+button{
+    background-color: blueviolet;
+}  
+#one1{
+    left:0px ;
+    bottom: opx; 
+    background-color: rgb(42, 234, 45);
+    position: relative; 
+     
+
+} 
+
