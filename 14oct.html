@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colorful Selection Cards</title>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center
+             bg-gradient-to-br from-orange-200 via-pink-400 to-purple-600 p-6">
+
+  <main class="w-full max-w-5xl rounded-2xl bg-gradient-to-r
+               from-pink-500 to-purple-500 p-8 shadow-2xl">
+
+    
+    <div class="flex justify-center mb-8">
+      <span class="bg-white text-gray-600 text-sm px-4 py-2
+                   rounded-md shadow-md">
+        Select one
+      </span>
+    </div>
+
+    
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+
+      
+      <div class="bg-white rounded-xl overflow-hidden shadow-lg
+                  hover:-translate-y-2 transition duration-300">
+
+        <div class="h-24 bg-yellow-400 rounded-b-[50%]
+                    flex justify-center items-center">
+          <h2 class="text-white text-4xl font-bold">1</h2>
+        </div>
+
+        <div class="p-5 text-center">
+          <p class="text-gray-500 text-sm leading-6 mb-6">
+            Choose the first option. This card represents your
+            first selection with a bright yellow design.
+          </p>
+
+          <button class="bg-yellow-400 hover:bg-yellow-500
+                         text-white font-semibold px-5 py-2
+                         rounded-full transition">
+            Select
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-lg
+                  hover:-translate-y-2 transition duration-300">
+
+        <div class="h-24 bg-rose-400 rounded-b-[50%]
+                    flex justify-center items-center">
+          <h2 class="text-white text-4xl font-bold">2</h2>
+        </div>
+
+        <div class="p-5 text-center">
+          <p class="text-gray-500 text-sm leading-6 mb-6">
+            Choose the second option. This card uses a rose-pink
+            header and a clean white content section.
+          </p>
+
+          <button class="bg-rose-400 hover:bg-rose-500
+                         text-white font-semibold px-5 py-2
+                         rounded-full transition">
+            Select
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-lg
+                  hover:-translate-y-2 transition duration-300">
+
+        <div class="h-24 bg-fuchsia-500 rounded-b-[50%]
+                    flex justify-center items-center">
+          <h2 class="text-white text-4xl font-bold">3</h2>
+        </div>
+
+        <div class="p-5 text-center">
+          <p class="text-gray-500 text-sm leading-6 mb-6">
+            Choose the third option. This card features a purple
+            header and matching selection button.
+          </p>
+
+          <button class="bg-fuchsia-500 hover:bg-fuchsia-600
+                         text-white font-semibold px-5 py-2
+                         rounded-full transition">
+            Select
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
